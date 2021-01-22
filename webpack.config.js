@@ -37,11 +37,13 @@ module.exports = {
       }
     ),
     //copia los estilos a la carpeta dist
-    new CopyWebpackPlugin([
-      {
-        from: './src/styles/styles.css',
-        to: '',
-      },
-    ]),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: './src/styles/styles.css',
+          to: '',
+        },
+      ],
+    }),
   ],
 };
