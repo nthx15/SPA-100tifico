@@ -1,3 +1,6 @@
-# SPA-100tifico
+# Single Page Application with Vanilla JS
 
-#Crea una aplicación web de página única y cárgala con información usando JavaScript Vanilla. Diseña una experiencia fluida para tus usuarios llamando a una API para mostrar la información y navegar entre los detalles de cada personaje.
+  - Usando la API de Rick & Morty para consumir información
+  - Desplegando el proyecto a traves de travis-ci
+  
+  * [WEB - 100tifico](https://nthx15.github.io/SPA-100tifico/) - Proyecto desplegdo
